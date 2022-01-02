@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.drumMachine {
+  background-color: lightblue;
+  width: 20vw;
+  padding: 1rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid lightgray;
+  border-radius: 5px;
+}
+.drumMachinePad {
+  display: grid;
+  grid-template-rows: repeat(1rem);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+}
+.display {
+  width: 6rem;
+  height: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: lightpink;
+  border: 2px solid lightgray;
+  margin: 1rem;
+  outline: 1px solid black;
+}
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  box-shadow: 0 0 0 3px lightgray;
+}
+.button:active {
+  background-color: lightblue;
+  box-shadow: 0 0 0 3px gray;
+}
